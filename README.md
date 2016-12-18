@@ -113,7 +113,7 @@ if (is_array($result) && count($result, COUNT_NORMAL) > 0) {
 > max_float_length = 3.345，即精确位数为小数点后 **3** 位
 
 #### 6、生成随机小数的落点
-> 随机小数范围 = (1 , max(range_max) * pow(10,max_float_length)) / pow(10,max_float_length)
+> 随机小数范围 = rand(1 , max(range_max) * pow(10, max_float_length)) / pow(10, max_float_length)
 
 #### 7、判断随机小数落在哪个奖品的范围
 > 若随机小数 = 2.175 ，即落在**奖品2**！
