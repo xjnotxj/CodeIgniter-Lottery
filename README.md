@@ -3,13 +3,16 @@ ci 抽奖 辅助函数
 
  
 # 用法
+
+### 1、 移入文件
+将`lottery_helper.php`放在你的工程根目录/application/helpers/
  
-### 1、导入辅助函数
+### 2、导入辅助函数
  ```php
  $this->load->helper('lottery');
  ```
  
-### 2、调用
+### 3、调用
  ```php
  //抽奖，返回奖品id
  $price_id = lottery($arr);
