@@ -74,9 +74,9 @@ function lottery($arr)
         }
     }
 
-    print_r($arr);
-    print_r($price_rand . PHP_EOL);
-    print_r($price_id . PHP_EOL);
+//     print_r($arr);
+//     print_r($price_rand . PHP_EOL);
+//     print_r($price_id . PHP_EOL);
 
     return $price_id;
 
